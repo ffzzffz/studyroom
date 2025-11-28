@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.selfstudy.modules.user.dao.TbUserDao">
+
+    <select id="listForBan" resultType="com.selfstudy.modules.user.entity.TbUserEntity">
+        SELECT * FROM tb_user WHERE status = 0 ORDER BY create_time DESC
+    </select>
+
+</mapper>
+

@@ -5,7 +5,10 @@
   window.SITE_CONFIG = {}
 
   // api接口请求地址
-  window.SITE_CONFIG['baseUrl'] = 'http://localhost:8080/self-study'
+  window.SITE_CONFIG['baseUrl'] = 'http://localhost:9999/self-study'
+
+  // 使用代理
+  window.SITE_CONFIG['apiURL'] = '/proxyApi'
 
   // cdn地址 = 域名 + 版本号
   window.SITE_CONFIG['domain'] = './' // 域名

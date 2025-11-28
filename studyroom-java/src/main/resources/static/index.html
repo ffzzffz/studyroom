@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自习室座位管理系统</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            padding: 50px;
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 {
+            color: #667eea;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .status {
+            display: inline-block;
+            background: #10b981;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        .info {
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+        .links {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: all 0.3s;
+            font-size: 14px;
+        }
+        .btn:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        .btn.secondary {
+            background: #10b981;
+        }
+        .btn.secondary:hover {
+            background: #059669;
+        }
+        .version {
+            margin-top: 30px;
+            color: #999;
+            font-size: 12px;
+        }
+        .icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">📚</div>
+        <h1>自习室座位管理系统</h1>
+        <div class="status">✓ 运行中</div>
+        <div class="info">
+            <p>系统已成功启动并正常运行</p>
+            <p>提供自习室座位预约、管理等功能</p>
+        </div>
+        <div class="links">
+            <a href="/self-study/swagger-ui.html" class="btn">📖 API 文档</a>
+            <a href="/self-study/druid/" class="btn secondary">📊 数据监控</a>
+        </div>
+        <div class="version">
+            Version 1.0.0 | Powered by Spring Boot
+        </div>
+    </div>
+</body>
+</html>
+
