@@ -69,7 +69,7 @@ git remote -v             # 查看远程仓库
 ### 拉取更新
 ```bash
 git pull                  # 拉取远程更新
-git pull origin master    # 拉取指定分支
+git pull origin main      # 拉取指定分支
 ```
 
 ### 分支管理

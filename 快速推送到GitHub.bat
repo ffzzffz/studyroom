@@ -34,6 +34,7 @@ if %errorlevel% equ 0 (
     echo ====================================
     echo.
     echo 在线查看: https://github.com/ffzzffz/studyroom
+    echo 当前分支: main
 ) else (
     echo ====================================
     echo ❌ 推送失败！

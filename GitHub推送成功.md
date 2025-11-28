@@ -68,9 +68,9 @@ git clone https://github.com/ffzzffz/studyroom.git
 
 **主页：** https://github.com/ffzzffz/studyroom
 
-**代码：** https://github.com/ffzzffz/studyroom/tree/master
+**代码：** https://github.com/ffzzffz/studyroom/tree/main
 
-**提交历史：** https://github.com/ffzzffz/studyroom/commits/master
+**提交历史：** https://github.com/ffzzffz/studyroom/commits/main
 
 ---
 
@@ -182,7 +182,7 @@ java, spring-boot, vue, element-ui, mysql, mybatis-plus, studyroom, booking-syst
    - https://github.com/ffzzffz/studyroom/issues
 
 3. **查看提交历史**
-   - https://github.com/ffzzffz/studyroom/commits/master
+   - https://github.com/ffzzffz/studyroom/commits/main
 
 ---
 
